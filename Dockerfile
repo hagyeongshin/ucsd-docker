@@ -8,6 +8,6 @@ USER root
 
 RUN apt-get -y install 
 
-USER hagyeongshin
+#USER hagyeongshin
 
 RUN pip install --no-cache-dir transformers openai
