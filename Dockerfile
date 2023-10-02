@@ -6,7 +6,7 @@ LABEL maintainer="Hagyeong Shin <hashin@ucsd.edu>"
 
 USER root
 
-#RUN apt-get -y install 
+RUN apt-get -y install 
 
 USER hagyeongshin
 
