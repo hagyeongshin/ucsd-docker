@@ -10,4 +10,4 @@ RUN apt-get -y install
 
 #USER hagyeongshin
 
-RUN pip install --no-cache-dir transformers openai
+RUN pip install --no-cache-dir transformers openai accelerate
